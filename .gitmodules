@@ -1,0 +1,3 @@
+[submodule "Qt"]
+	path = Qt
+	url = http://gitlab.schleissheimer.de/RemoteWorkstation/Qt
