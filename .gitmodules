@@ -1,3 +1,6 @@
 [submodule "Qt"]
 	path = Qt
 	url = http://gitlab.schleissheimer.de/RemoteWorkstation/Qt
+[submodule "opencv"]
+	path = opencv
+	url = http://gitlab.schleissheimer.de/RemoteWorkstation/opencv
