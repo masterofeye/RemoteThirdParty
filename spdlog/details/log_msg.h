@@ -43,6 +43,7 @@ struct log_msg
     fmt::MemoryWriter raw;
     fmt::MemoryWriter formatted;
 	int type;
+    int filter;
 };
 }
 }
