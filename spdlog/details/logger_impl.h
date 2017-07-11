@@ -89,6 +89,7 @@ inline void spdlog::logger::log(level::level_enum lvl, const char* fmt, const in
         details::log_msg log_msg(&_name, lvl);
         log_msg.raw.write(fmt, args...);
         log_msg.filter = filter;
+        log_msg.type = _type;
         _sink_it(log_msg);
     }
     catch (const std::exception &ex)
